@@ -14,7 +14,7 @@ public class TestcaseEntity {
     private String input2;
     private String result;
 
-    @Enumerated(EnumType.STRING)
+  
     private TestCaseStatus status;
 
     @ManyToOne
